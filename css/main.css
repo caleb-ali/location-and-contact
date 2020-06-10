@@ -115,6 +115,7 @@ input[type=text]#Email-Address, select {
 
  
  textarea#message {
+     padding: 10px;
     margin-top: 1em;
     width: 100%;
     display: inline-block;
@@ -127,8 +128,8 @@ input[type=text]#Email-Address, select {
  input[type=submit]#get-direction {
      margin-top: 3em;
     width: 25%;
-    background-color: #036158;
-    color: black;
+    background-color: #035951;
+    color: white;
     padding: 8px 5px 8px 5px;
     border: none;
     border-radius: 5px 5px 5px 5px;
@@ -214,7 +215,7 @@ input[type=text]#Email-Address, select {
     /*Enter email address box*/
     input[type=text]#Email-Address, select {
     margin-bottom: 2em;
-    width: 50%;
+    width: 60%;
   }
     .form{
         
@@ -222,7 +223,7 @@ input[type=text]#Email-Address, select {
         line-height: 15px; 
     }
 
-        /*get directions button*/
+      /*get directions button*/
         input[type=submit]#get-direction {
          width: 50%;
          background-color: #036158;
@@ -238,7 +239,7 @@ input[type=text]#Email-Address, select {
 
        /*Enter your loction box*/
         input[type=text]#saddr, select {
-        width: 50%;
+        width: 60%;
         margin-left: 0em;
         margin-top: 1em;
      }
@@ -266,9 +267,15 @@ input[type=text]#Email-Address, select {
         float: left;
         width: 100%;
     }
+
+    /*Enter your loction box*/
+    input[type=text]#saddr, select {
+        width: 60%;
+
+     }
     
     input[type=text]#Email-Address, select {
-        width: 50%;
+        width: 60%;
       }
     
     .phonesvg {
