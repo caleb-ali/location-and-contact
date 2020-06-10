@@ -2,6 +2,7 @@
 
 body{
     margin: 2em 4em 2em 4em ;
+    color: #595959;
 }
 .location h2{
     font-family: Crimson Text;
@@ -9,6 +10,7 @@ body{
     font-weight: bold;
     font-size:25px; 
     line-height: 47px;
+    
 }
 
 .location h2::before{
@@ -182,6 +184,7 @@ input[type=text]#Email-Address, select {
         font-size:15px; 
         line-height: 10px;
     }
+    
 
     .contact {
         width: 100%;
