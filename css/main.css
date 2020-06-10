@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+body{
+    margin: 2em 4em 2em 4em ;
+}
+.location h2{
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 47px;
+}
+
+.location h2::before{
+    content:'';
+    position: absolute;
+    width: 4em;
+    background: #A67153;
+    height: .2em;
+    text-align: center;
+    margin-top: 2em;
+    
+    
+    }
+
+
+.image {
+width: 100%;
+padding-top: 1em;
+padding-bottom: 1em;
+}
+
+.address{
+    float: left;
+    width: 33.33%;
+}
+
+.address h2{
+   color: #036158;
+}
+
+.contact{
+    float: left;
+    width: 33.33%;
+}
+
+.contact h2{
+    color: #036158; 
+}
+
+.email{
+    float: left;
+    width: 33.33%;
+}
+
+.email h2{
+    color: #036158;   
+}
+
+.form{
+    padding-top: 5em;
+    font-weight: bold;
+    font-size:25px; 
+    line-height: 47px;
+    color: #036158; 
+    font-family: Crimson Text;
+    font-style: normal;  
+}
+
+.message{
+    width: 100%;
+    margin-top: 9em;
+}
+/*Enter your loction box*/
+input[type=text]#saddr, select {
+    text-align: left;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 8px 5px 8px 15px;
+    margin-left: 10px;
+    width: 30%;
+  }
+
+/*Enter email address box*/
+input[type=text]#Email-Address, select {
+    text-align: left;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 8px 5px 8px 15px;
+    width: 100%;
+  }
+
+
+ 
+ textarea#message {
+    margin-top: 1em;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;   
+ }
+
+/*get directions button*/
+ input[type=submit]#get-direction {
+     margin-top: 3em;
+    font-weight: bold;
+    width: 25%;
+    background-color: white;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer; 
+  }
+
+  input[type=submit]#get-direction:hover {
+    background-color:  #036158;
+  }
+
+ input[type=submit]#send-message {
+    font-weight: bold;
+    width: 25%;
+    background-color: #035951;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    
+  }
+
+  input[type=submit]#send-message:hover {
+    background-color:  #036158;
+  }
+
+   /* Responsive layout - when the screen is less than 600px wide, address contact and "enter email" stack top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .address {
+      width: 100%;
+    }
+    .contact {
+        width: 100%;
+      }
+      .email {
+        width: 100%;
+      }
+  } 
+  
