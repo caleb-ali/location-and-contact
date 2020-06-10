@@ -4,9 +4,10 @@ body{
     margin: 2em 4em 2em 4em ;
 }
 .location h2{
-    font-family: 'Crimson Text', serif;
+    font-family: Crimson Text;
+    font-style: normal;  
     font-weight: bold;
-    font-size: 25px;
+    font-size:25px; 
     line-height: 47px;
 }
 
@@ -35,7 +36,12 @@ padding-bottom: 1em;
 }
 
 .address h2{
-   color: #036158;
+    font-family: Crimson Text;
+    font-style: normal;  
+    font-weight: bold;
+    font-size:25px; 
+    line-height: 47px;
+    color: #036158;
 }
 
 .contact{
@@ -44,6 +50,11 @@ padding-bottom: 1em;
 }
 
 .contact h2{
+    font-family: Crimson Text;
+    font-style: normal;  
+    font-weight: bold;
+    font-size:25px; 
+    line-height: 47px;
     color: #036158; 
 }
 
@@ -53,17 +64,23 @@ padding-bottom: 1em;
 }
 
 .email h2{
+    font-family: Crimson Text;
+    font-style: normal;  
+    font-weight: bold;
+    font-size:25px; 
+    line-height: 47px;
     color: #036158;   
 }
 
 .form{
     padding-top: 5em;
-    font-weight: bold;
-    font-size:25px; 
-    line-height: 47px;
     color: #036158; 
     font-family: Crimson Text;
     font-style: normal;  
+    font-weight: bold;
+    font-size:25px; 
+    line-height: 47px;
+
 }
 
 .message{
@@ -101,14 +118,18 @@ input[type=text]#Email-Address, select {
 /*get directions button*/
  input[type=submit]#get-direction {
      margin-top: 3em;
-    font-weight: bold;
     width: 25%;
     background-color: white;
     color: black;
     padding: 10px 10px 10px 10px;
     border: none;
     border-radius: 5px 5px 5px 5px;
-    cursor: pointer; 
+    cursor: pointer;
+    font-family: Crimson Text;
+    font-style: normal;  
+    font-weight: bold;
+    font-size: 15px;
+
   }
 
   input[type=submit]#get-direction:hover {
