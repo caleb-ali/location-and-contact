@@ -121,7 +121,7 @@ input[type=text]#Email-Address, select {
     width: 25%;
     background-color: white;
     color: black;
-    padding: 10px 10px 10px 10px;
+    padding: 8px 5px 8px 5px;
     border: none;
     border-radius: 5px 5px 5px 5px;
     cursor: pointer;
@@ -140,7 +140,7 @@ input[type=text]#Email-Address, select {
     font-weight: bold;
     width: 25%;
     background-color: #035951;
-    color: black;
+    color: white;
     padding: 10px 10px 10px 10px;
     border: none;
     border-radius: 5px 5px 5px 5px;
@@ -154,14 +154,70 @@ input[type=text]#Email-Address, select {
 
    /* Responsive layout - when the screen is less than 600px wide, address contact and "enter email" stack top of each other instead of next to each other */
     @media screen and (max-width: 600px) {
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     .address {
       width: 100%;
+    }
+
+    .address h2{
+        font-size:15px; 
+        line-height: 0px;
+        
     }
     .contact {
         width: 100%;
       }
+
+      .contact h2{
+        font-size:15px; 
+        line-height: 0px;
+    }
       .email {
         width: 100%;
       }
+
+      .email h2{
+        font-size:15px; 
+        line-height: 0px;   
+    }
+
+      .location h2{
+        
+        font-size:15px; 
+        line-height: 20px;
+    }
+    
+    .location h2::before{
+        height: .2em;
+        margin-top: 1.5em;
+        
+        
+        }
+
+        /*get directions button*/
+ input[type=submit]#get-direction {
+   width: 100%;
+   
+   background-color: #036158;
+   color: white;
+   padding: 8px 0px 8px 0px;
+   
+   cursor: pointer;
+   font-family: rgb(71, 65, 67) Text;
+   font-style: normal;  
+   font-weight: bold;
+   font-size: 15px;
+
+ }
+
+     /*Enter your loction box*/
+    input[type=text]#saddr, select {
+        width: 100%;
+        margin-left: 0em;
+        margin-top: 1em;
+  }
   } 
   
