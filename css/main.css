@@ -91,19 +91,23 @@ padding-bottom: 1em;
 input[type=text]#saddr, select {
     text-align: left;
     display: inline-block;
-    box-sizing: border-box;
     padding: 8px 5px 8px 15px;
     margin-left: 10px;
     width: 30%;
+    border: 1px solid #8C8C8C;
+    box-sizing: border-box; 
+    border-radius: 5px; 
   }
 
 /*Enter email address box*/
 input[type=text]#Email-Address, select {
     text-align: left;
     display: inline-block;
-    box-sizing: border-box;
     padding: 8px 5px 8px 15px;
     width: 100%;
+    border: 1px solid #8C8C8C;
+    box-sizing: border-box; 
+    border-radius: 5px; 
   }
 
 
@@ -112,7 +116,9 @@ input[type=text]#Email-Address, select {
     margin-top: 1em;
     width: 100%;
     display: inline-block;
-    box-sizing: border-box;   
+    border: 1px solid #8C8C8C;
+    box-sizing: border-box; 
+    border-radius: 5px; 
  }
 
 /*get directions button*/
@@ -158,23 +164,35 @@ input[type=text]#Email-Address, select {
         margin-left: 10%;
         margin-right: 10%;
     }
+
+    .location h2{
+        font-size:15px; 
+        line-height: 20px;
+    }
+    
+    .location h2::before{
+        height: .2em;
+        margin-top: 1.5em;
+        }
+
     .address {
       width: 100%;
     }
 
     .address h2{
         font-size:15px; 
-        line-height: 0px;
-        
+        line-height: 10px;
     }
+
     .contact {
         width: 100%;
       }
 
       .contact h2{
         font-size:15px; 
-        line-height: 0px;
+        line-height: 10px;
     }
+
       .email {
         width: 100%;
       }
@@ -184,40 +202,38 @@ input[type=text]#Email-Address, select {
         line-height: 0px;   
     }
 
-      .location h2{
+    /*Enter email address box*/
+    input[type=text]#Email-Address, select {
+    margin-bottom: 2em;
+  }
+    .form{
         
         font-size:15px; 
-        line-height: 20px;
-    }
+        line-height: 15px; 
+     
     
-    .location h2::before{
-        height: .2em;
-        margin-top: 1.5em;
-        
-        
-        }
+    
+    }
 
         /*get directions button*/
- input[type=submit]#get-direction {
-   width: 100%;
+        input[type=submit]#get-direction {
+         width: 100%;
+         background-color: #036158;
+         color: white;
+         padding: 8px 0px 8px 0px;
    
-   background-color: #036158;
-   color: white;
-   padding: 8px 0px 8px 0px;
-   
-   cursor: pointer;
-   font-family: rgb(71, 65, 67) Text;
-   font-style: normal;  
-   font-weight: bold;
-   font-size: 15px;
+        cursor: pointer;
+         font-family: rgb(71, 65, 67) Text;
+         font-style: normal;  
+         font-weight: bold;
+         font-size: 15px;
+        }
 
- }
-
-     /*Enter your loction box*/
-    input[type=text]#saddr, select {
+       /*Enter your loction box*/
+        input[type=text]#saddr, select {
         width: 100%;
         margin-left: 0em;
         margin-top: 1em;
-  }
+     }
   } 
   
