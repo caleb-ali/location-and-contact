@@ -127,7 +127,7 @@ input[type=text]#Email-Address, select {
  input[type=submit]#get-direction {
      margin-top: 3em;
     width: 25%;
-    background-color: white;
+    background-color: #036158;
     color: black;
     padding: 8px 5px 8px 5px;
     border: none;
@@ -191,16 +191,12 @@ input[type=text]#Email-Address, select {
       }
 
       .phonesvg {
-       height: 40px;
-       width: 60%;
-       
-       
-      }
-
-      .emailsvg{
-          width: 80%;
-          height: 40px;
-      }
+        font-size: 10px;
+        }
+  
+        .emailsvg{
+         font-size: 10px;
+        }
       .contact h2{
         font-size:15px; 
         line-height: 10px;
@@ -218,6 +214,7 @@ input[type=text]#Email-Address, select {
     /*Enter email address box*/
     input[type=text]#Email-Address, select {
     margin-bottom: 2em;
+    width: 50%;
   }
     .form{
         
@@ -227,7 +224,7 @@ input[type=text]#Email-Address, select {
 
         /*get directions button*/
         input[type=submit]#get-direction {
-         width: 100%;
+         width: 50%;
          background-color: #036158;
          color: white;
          padding: 8px 0px 8px 0px;
@@ -241,15 +238,46 @@ input[type=text]#Email-Address, select {
 
        /*Enter your loction box*/
         input[type=text]#saddr, select {
-        width: 100%;
+        width: 50%;
         margin-left: 0em;
         margin-top: 1em;
      }
 
      input[type=submit]#send-message {
         margin-top: 2em;
-        width: 100%;
+        width: 50%;
         
       }
   } 
+/*for screens like ipad*/
+  @media only screen and (max-width: 920px) and (min-width: 601px){
+    
+    .address{
+        float: left;
+        width: 50%;
+    }
+
+    .contact{
+        float: left;
+        width: 50%;
+    }
+
+    .email{
+        float: left;
+        width: 100%;
+    }
+    
+    input[type=text]#Email-Address, select {
+        width: 50%;
+      }
+    
+    .phonesvg {
+       font-size: 10px;
+       }
+ 
+       .emailsvg{
+        font-size: 10px;
+       }
+    
+  }
   
