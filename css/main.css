@@ -151,7 +151,6 @@ input[type=text]#Email-Address, select {
     border: none;
     border-radius: 5px 5px 5px 5px;
     cursor: pointer;
-    
   }
 
   input[type=submit]#send-message:hover {
@@ -188,6 +187,17 @@ input[type=text]#Email-Address, select {
         width: 100%;
       }
 
+      .phonesvg {
+       height: 40px;
+       width: 60%;
+       
+       
+      }
+
+      .emailsvg{
+          width: 80%;
+          height: 40px;
+      }
       .contact h2{
         font-size:15px; 
         line-height: 10px;
@@ -210,9 +220,6 @@ input[type=text]#Email-Address, select {
         
         font-size:15px; 
         line-height: 15px; 
-     
-    
-    
     }
 
         /*get directions button*/
@@ -235,5 +242,11 @@ input[type=text]#Email-Address, select {
         margin-left: 0em;
         margin-top: 1em;
      }
+
+     input[type=submit]#send-message {
+        margin-top: 2em;
+        width: 100%;
+        
+      }
   } 
   
